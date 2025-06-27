@@ -1,0 +1,119 @@
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:16:49"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:16:49"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:16:49"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:16:49"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:16:49"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:16:49"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:16:49"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:16:49"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:16:49"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:16:49"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:16:49"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:16:49"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:16:49"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:16:49"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:16:49"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:16:49"}
+{"level":"info","message":"Using default APIs for missing businessid","timestamp":"2025-06-27 13:16:52"}
+{"level":"warn","message":"API error with nominatim: timeout of 3000ms exceeded","timestamp":"2025-06-27 13:16:55"}
+{"level":"info","message":"Using default APIs for missing businessid","timestamp":"2025-06-27 13:16:59"}
+{"level":"info","message":"Location fetched","source":"cache","timestamp":"2025-06-27 13:16:59"}
+{"level":"info","message":"Using default APIs for missing businessid","timestamp":"2025-06-27 13:17:05"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:27:48"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:27:48"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:27:48"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:27:48"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:27:48"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:27:48"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:27:48"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:27:48"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:27:48"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:27:48"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:27:48"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:27:48"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:27:48"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:27:48"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:27:49"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 13:27:49"}
+{"level":"info","message":"Using default APIs for missing businessid","timestamp":"2025-06-27 13:28:13"}
+{"level":"info","message":"Location fetched","source":"cache","timestamp":"2025-06-27 13:28:13"}
+{"level":"info","message":"Location fetched","source":"cache","timestamp":"2025-06-27 13:29:15"}
+{"level":"info","message":"Using default APIs for missing businessid","timestamp":"2025-06-27 13:29:19"}
+{"level":"info","message":"Using default APIs for missing businessid","timestamp":"2025-06-27 13:34:53"}
+{"level":"info","message":"Using default APIs for missing businessid","timestamp":"2025-06-27 13:35:12"}
+{"level":"warn","message":"Reverse API error with nominatim: businessid is not defined","timestamp":"2025-06-27 13:35:12"}
+{"level":"info","message":"Using default APIs for missing businessid","timestamp":"2025-06-27 13:53:17"}
+{"level":"info","message":"Location fetched","source":"cache","timestamp":"2025-06-27 13:53:17"}
+{"level":"info","message":"Location fetched","source":"cache","timestamp":"2025-06-27 13:53:20"}
+{"level":"info","message":"Reverse location fetched from cache","timestamp":"2025-06-27 13:56:23"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:02:13"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:02:13"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:02:13"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:02:13"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:02:13"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:02:13"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:02:13"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:02:13"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:02:13"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:02:13"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:02:13"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:02:13"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:02:14"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:02:14"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:02:14"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:02:14"}
+{"level":"info","message":"Reverse location fetched from cache","timestamp":"2025-06-27 14:02:19"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:05:09"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:05:20"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:05:20"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:05:20"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:05:20"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:05:20"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:05:20"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:05:21"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:05:21"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:05:21"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:05:21"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:05:21"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:05:21"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:05:21"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:05:21"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:05:21"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:05:21"}
+{"level":"info","message":"Reverse location fetched from cache","timestamp":"2025-06-27 14:05:22"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:07:23"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:07:23"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:07:23"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:07:23"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:07:23"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:07:23"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:07:23"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:07:23"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:07:23"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:07:23"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:07:23"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:07:23"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:07:23"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:07:23"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:07:23"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:07:23"}
+{"level":"info","message":"Reverse location fetched from cache","timestamp":"2025-06-27 14:07:26"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:11:00"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:11:00"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:11:00"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:11:00"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:11:00"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:11:00"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:11:00"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:11:00"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:11:00"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:11:00"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:11:00"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:11:00"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:11:00"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:11:00"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:11:00"}
+{"level":"info","message":"Initialized permission cache for 5 clients","timestamp":"2025-06-27 14:11:00"}
+{"level":"info","message":"Location fetched","source":"cache","timestamp":"2025-06-27 14:21:56"}
+{"level":"info","message":"Using default APIs for missing businessid","timestamp":"2025-06-27 14:22:46"}
+{"level":"info","message":"Location fetched","source":"cache","timestamp":"2025-06-27 14:22:47"}
