@@ -28,6 +28,11 @@ function resultNormalize(query, source, result, index = 0) {
     postcode: address.postcode || null,
     country: address.country || null,
     country_code: address.country_code || null,
+    hamlet: address.hamlet || null,
+    city_district: address.city_district || null,
+    town: address.town || null,
+    village: address.village || null,
+
     used_api: source,
   };
 }

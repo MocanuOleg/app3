@@ -11,6 +11,7 @@ const {ReverseGeocodeWithNominatim} = require('../models/nominatimReverseGeocode
 const {ReverseGeocodeWithGoogle} = require('../models/googleReverseGeocode')
 const { normalizeRegio } = require('./regioToNomimatim');
 const { normalizeReverseRegio } = require('./reverseregioToNominatim');
+const {normalizeGoogleResult} = require('./googleToNominatim')
 
 
 const db = require('../config/knex');
@@ -43,6 +44,10 @@ async function saveLocation(response, searchTerm, api) {
     postcode: response.postcode || null,
     country: response.country || null,
     country_code: response.country_code || null,
+    hamlet: response.hamlet        || null,
+    city_district: response.city_district || null,
+    town: response.town          || null,
+    village: response.village       || null,
     used_api: api
   };
 
@@ -145,7 +150,7 @@ async function checkExistingSearchOrCoordinates(searchTerm = null, lat = null, l
           'query', 'place_id', 'osm_id', 'display_name', 'latitude', 'longitude',
           'category', 'type', 'addresstype', 'name', 'building', 'house_number',
           'road', 'quarters', 'suburb', 'city', 'municipality', 'county', 'iso3166',
-          'postcode', 'country', 'country_code', 'used_api'
+          'postcode', 'country', 'country_code','hamlet', 'city_district', 'town', 'village', 'used_api'
         )
         .whereRaw('LOWER(query) = ?', [normalizedQuery]);
     } else if (lat && lon) {
@@ -154,7 +159,7 @@ async function checkExistingSearchOrCoordinates(searchTerm = null, lat = null, l
           'query', 'place_id', 'osm_id', 'display_name', 'latitude', 'longitude',
           'category', 'type', 'addresstype', 'name', 'building', 'house_number',
           'road', 'quarters', 'suburb', 'city', 'municipality', 'county', 'iso3166',
-          'postcode', 'country', 'country_code', 'used_api'
+          'postcode', 'country', 'country_code','hamlet', 'city_district', 'town', 'village', 'used_api'
         )
         .where({ latitude: lat, longitude: lon });
     }
@@ -260,15 +265,16 @@ async function fetchAndSaveLocation(searchTerm, businessid, use_all_apis = false
             sourcesUsed.push(api);
           }
         } else if (api === 'google') {
-          const googleResult = await geocodeWithGoogle(searchTerm);
+          const googleResults = await geocodeWithGoogle(searchTerm);
 
-          if (googleResult) {
-            const normalizedGoogle = resultNormalize(searchTerm, api, googleResult);
-            await saveLocation(normalizedGoogle, searchTerm, api);
-            logKafka('google', businessid || 0);
-            results.push(normalizedGoogle);
-            sourcesUsed.push(api);
-          }
+          if (Array.isArray(googleResults) && googleResults.length > 0) {
+            for (const result of googleResults) {
+            await saveLocation(result, searchTerm, api);
+            results.push(result);
+         }
+          logKafka('google', businessid || 0);
+          sourcesUsed.push(api);
+        }
         }else if (api === 'regio') {
       const regioResults = await normalizeRegio(searchTerm);
 

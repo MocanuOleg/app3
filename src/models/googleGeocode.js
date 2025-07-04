@@ -16,22 +16,20 @@ async function geocodeWithGoogle(query) {
     });
     
     if (!data.results || data.results.length === 0) {
-      console.log('1');
+      //  console.log('1');
       throw new Error('Google Geocoding failed: ZERO_RESULTS');
       
     }
 
    
-    const firstResult = data.results[0];
-    console.log('sa',firstResult);
-    if (!firstResult.address_components || !Array.isArray(firstResult.address_components)) {
-      throw new Error('Invalid googleData: address_components is not an array');
-    }
-   
+    const normalizedResults = data.results.map(result => {
+      if (!result.address_components || !Array.isArray(result.address_components)) {
+        throw new Error('Invalid googleData: address_components is not an array');
+      }
+      return normalizeGoogleResult(result,query);
+    });
 
-    const formatted = normalizeGoogleResult (firstResult);
-    //console.log(formatted);
-    return formatted;
+    return normalizedResults;
 
   } catch (error) {
     //console.error(`Google geocoding for "${query}":`, error.message);
